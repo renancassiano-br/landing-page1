@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* GERAL */
+body {
+  text-align: center;
+}
+
+main {
+  padding-top: 160px;
+}
+
+/* ESPECÍFICOS */
+#links {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
