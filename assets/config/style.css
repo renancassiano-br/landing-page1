@@ -7,10 +7,44 @@
 /* GERAL */
 body {
   text-align: center;
+  color: white;
+  background: black;
 }
 
 main {
   padding-top: 160px;
+}
+
+span
+, h1 {
+  color: #FFC700;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+h1  {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ESPECÍFICOS */
@@ -19,4 +53,16 @@ main {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+#btn-play
+, a:hover {
+  text-decoration: none;
+  background: #FFC700;
+  color: #040101;
+}
+
+#btn-play:hover
+, a:hover {
+  transform: scale(1.05);
 }
